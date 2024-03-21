@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>p2.js</title>
+    <script src="../build/p2.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="js/pixi.js"></script>
+    <script src="js/Demo.js"></script>
+    <script src="js/PixiDemo.js"></script>
+    <link href="css/demo.css" rel="stylesheet"/>
+</head>
+<body>
+    <script>
+
+        var disturb = true, l = 20, N=15, M=15, r = 0.07, d=2.2;
+
+        var xmin=(-N/2 * r*d),
+            xmax=( N/2 * r*d),
+            ymin=(-M/2 * r*d),
+            ymax=( M/2 * r*d);
+
+        var world = new p2.World({
+            doProfiling:true,
+            gravity : [0,-10],
+        });
+        world.solver.setSpookParams(1e5,3);
+        world.solver.iterations = 100;
+
+        // Use a Sweep And Prune (SAP) broadphase
+        world.broadphase = new p2.SAP1DBroadphase(world);
+
+        // Create circle bodies
+        var shape = new p2.Circle(r);
+        for(var i=0; i<N; i++){
+            for(var j=0; j<M; j++){
+                var x = (i-N/2)*r*d+(disturb ? Math.random()*r : 0);
+                var y = (j-M/2)*r*d;
+                var p = new p2.Body({
+                    mass: 1,
+                    position: [x, y],
+                });
+                p.addShape(shape);
+                world.addBody(p);
+            }
+        }
+
+
+        // Create ground
+        var planeShape = new p2.Plane();
+        var plane = new p2.Body({
+            position : [0,ymin],
+        });
+        plane.addShape(planeShape);
+        world.addBody(plane);
+
+        var planeLeft = new p2.Body({
+            angle: -Math.PI/2,
+            position: [xmin, 0]
+        });
+        planeLeft.addShape(planeShape);
+        world.addBody(planeLeft);
+
+        var planeRight = new p2.Body({
+            angle: Math.PI/2,
+            position: [xmax, 0]
+        });
+        planeRight.addShape(planeShape);
+        world.addBody(planeRight);
+
+        var demo = new PixiDemo(world);
+
+        function update(){
+            if(!demo.paused)
+                world.step(1/60);
+            requestAnimationFrame(update);
+        }
+        requestAnimationFrame(update);
+
+    </script>
+</body>
+</html>

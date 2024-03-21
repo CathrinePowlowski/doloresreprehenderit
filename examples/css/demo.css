@@ -1,0 +1,17 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    overflow: hidden;
+    background:white;
+}
+
+#step {
+    position:absolute;
+    top:0;
+    left:0;
+    padding:4px;
+    background-color: white;
+}

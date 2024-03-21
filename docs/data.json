@@ -1,0 +1,3819 @@
+{
+    "project": {
+        "name": "p2.js",
+        "description": "2D physics engine for the web",
+        "version": "0.2.0"
+    },
+    "files": {
+        "src/collision/Broadphase.js": {
+            "name": "src/collision/Broadphase.js",
+            "modules": {},
+            "classes": {
+                "Broadphase": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/collision/GridBroadphase.js": {
+            "name": "src/collision/GridBroadphase.js",
+            "modules": {},
+            "classes": {
+                "GridBroadphase": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/collision/NaiveBroadphase.js": {
+            "name": "src/collision/NaiveBroadphase.js",
+            "modules": {},
+            "classes": {
+                "NaiveBroadphase": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/collision/Nearphase.js": {
+            "name": "src/collision/Nearphase.js",
+            "modules": {},
+            "classes": {
+                "Nearphase": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/collision/QuadTree.js": {
+            "name": "src/collision/QuadTree.js",
+            "modules": {},
+            "classes": {
+                "QuadTree": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/collision/SAP1DBroadphase.js": {
+            "name": "src/collision/SAP1DBroadphase.js",
+            "modules": {},
+            "classes": {
+                "SAP1DBroadphase": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/constraints/Constraint.js": {
+            "name": "src/constraints/Constraint.js",
+            "modules": {},
+            "classes": {
+                "Constraint": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/constraints/ContactEquation.js": {
+            "name": "src/constraints/ContactEquation.js",
+            "modules": {},
+            "classes": {
+                "ContactEquation": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/constraints/DistanceConstraint.js": {
+            "name": "src/constraints/DistanceConstraint.js",
+            "modules": {},
+            "classes": {
+                "DistanceConstraint": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/constraints/Equation.js": {
+            "name": "src/constraints/Equation.js",
+            "modules": {},
+            "classes": {
+                "Equation": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/constraints/FrictionEquation.js": {
+            "name": "src/constraints/FrictionEquation.js",
+            "modules": {},
+            "classes": {
+                "FrictionEquation": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/constraints/PointToPointConstraint.js": {
+            "name": "src/constraints/PointToPointConstraint.js",
+            "modules": {},
+            "classes": {
+                "PointToPointConstraint": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/constraints/PrismaticConstraint.js": {
+            "name": "src/constraints/PrismaticConstraint.js",
+            "modules": {},
+            "classes": {
+                "PrismaticConstraint": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/constraints/RotationalVelocityEquation.js": {
+            "name": "src/constraints/RotationalVelocityEquation.js",
+            "modules": {},
+            "classes": {
+                "RotationalVelocityEquation": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/material/ContactMaterial.js": {
+            "name": "src/material/ContactMaterial.js",
+            "modules": {},
+            "classes": {
+                "ContactMaterial": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/material/Material.js": {
+            "name": "src/material/Material.js",
+            "modules": {},
+            "classes": {
+                "Material": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/math/mat2.js": {
+            "name": "src/math/mat2.js",
+            "modules": {},
+            "classes": {
+                "mat2": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/math/vec2.js": {
+            "name": "src/math/vec2.js",
+            "modules": {},
+            "classes": {
+                "vec2": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/objects/Body.js": {
+            "name": "src/objects/Body.js",
+            "modules": {},
+            "classes": {
+                "Body": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/objects/Spring.js": {
+            "name": "src/objects/Spring.js",
+            "modules": {},
+            "classes": {
+                "Spring": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/shapes/Capsule.js": {
+            "name": "src/shapes/Capsule.js",
+            "modules": {},
+            "classes": {
+                "Capsule": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/shapes/Circle.js": {
+            "name": "src/shapes/Circle.js",
+            "modules": {},
+            "classes": {
+                "Circle": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/shapes/Convex.js": {
+            "name": "src/shapes/Convex.js",
+            "modules": {},
+            "classes": {
+                "Convex": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/shapes/Line.js": {
+            "name": "src/shapes/Line.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/shapes/Particle.js": {
+            "name": "src/shapes/Particle.js",
+            "modules": {},
+            "classes": {
+                "Particle": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/shapes/Plane.js": {
+            "name": "src/shapes/Plane.js",
+            "modules": {},
+            "classes": {
+                "Plane": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/shapes/Rectangle.js": {
+            "name": "src/shapes/Rectangle.js",
+            "modules": {},
+            "classes": {
+                "Rectangle": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/shapes/Shape.js": {
+            "name": "src/shapes/Shape.js",
+            "modules": {},
+            "classes": {
+                "Shape": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/solver/GSSolver.js": {
+            "name": "src/solver/GSSolver.js",
+            "modules": {},
+            "classes": {
+                "GSSolver": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/solver/Island.js": {
+            "name": "src/solver/Island.js",
+            "modules": {},
+            "classes": {
+                "Island": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/solver/IslandSolver.js": {
+            "name": "src/solver/IslandSolver.js",
+            "modules": {},
+            "classes": {
+                "IslandSolver": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/solver/Solver.js": {
+            "name": "src/solver/Solver.js",
+            "modules": {},
+            "classes": {
+                "Solver": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/world/World.js": {
+            "name": "src/world/World.js",
+            "modules": {},
+            "classes": {
+                "World": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Broadphase": {
+            "name": "Broadphase",
+            "shortname": "Broadphase",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/collision/Broadphase.js",
+            "line": 7,
+            "description": "Base class for broadphase implementations.",
+            "is_constructor": 1
+        },
+        "GridBroadphase": {
+            "name": "GridBroadphase",
+            "shortname": "GridBroadphase",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/collision/GridBroadphase.js",
+            "line": 9,
+            "description": "Broadphase that uses axis-aligned bins.",
+            "is_constructor": 1,
+            "extends": "Broadphase",
+            "params": [
+                {
+                    "name": "xmin",
+                    "description": "Lower x bound of the grid",
+                    "type": "Number"
+                },
+                {
+                    "name": "xmax",
+                    "description": "Upper x bound",
+                    "type": "Number"
+                },
+                {
+                    "name": "ymin",
+                    "description": "Lower y bound",
+                    "type": "Number"
+                },
+                {
+                    "name": "ymax",
+                    "description": "Upper y bound",
+                    "type": "Number"
+                },
+                {
+                    "name": "nx",
+                    "description": "Number of bins along x axis",
+                    "type": "Number"
+                },
+                {
+                    "name": "ny",
+                    "description": "Number of bins along y axis",
+                    "type": "Number"
+                }
+            ],
+            "todo": [
+                "test"
+            ]
+        },
+        "NaiveBroadphase": {
+            "name": "NaiveBroadphase",
+            "shortname": "NaiveBroadphase",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/collision/NaiveBroadphase.js",
+            "line": 10,
+            "description": "Naive broadphase implementation. Does N^2 tests.",
+            "is_constructor": 1,
+            "extends": "Broadphase"
+        },
+        "Nearphase": {
+            "name": "Nearphase",
+            "shortname": "Nearphase",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/collision/Nearphase.js",
+            "line": 30,
+            "description": "Nearphase. Creates contacts and friction given shapes and transforms.",
+            "is_constructor": 1
+        },
+        "QuadTree": {
+            "name": "QuadTree",
+            "shortname": "QuadTree",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/collision/QuadTree.js",
+            "line": 10,
+            "description": "QuadTree data structure. See https://github.com/mikechambers/ExamplesByMesh/tree/master/JavaScript/QuadTree",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "An",
+                    "description": "object representing the bounds of the top level of the QuadTree. The object\nshould contain the following properties : x, y, width, height",
+                    "type": "Object"
+                },
+                {
+                    "name": "pointQuad",
+                    "description": "Whether the QuadTree will contain points (true), or items with bounds\n(width / height)(false). Default value is false.",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "maxDepth",
+                    "description": "The maximum number of levels that the quadtree will create. Default is 4.",
+                    "type": "Number"
+                },
+                {
+                    "name": "maxChildren",
+                    "description": "The maximum number of children that a node can contain before it is split into sub-nodes.",
+                    "type": "Number"
+                }
+            ]
+        },
+        "SAP1DBroadphase": {
+            "name": "SAP1DBroadphase",
+            "shortname": "SAP1DBroadphase",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/collision/SAP1DBroadphase.js",
+            "line": 10,
+            "description": "Sweep and prune broadphase along one axis.",
+            "is_constructor": 1,
+            "extends": "Broadphase",
+            "params": [
+                {
+                    "name": "world",
+                    "description": "",
+                    "type": "World"
+                }
+            ]
+        },
+        "Constraint": {
+            "name": "Constraint",
+            "shortname": "Constraint",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/constraints/Constraint.js",
+            "line": 3,
+            "description": "Base constraint class.",
+            "is_constructor": 1,
+            "author": "schteppe",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                }
+            ]
+        },
+        "ContactEquation": {
+            "name": "ContactEquation",
+            "shortname": "ContactEquation",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/constraints/ContactEquation.js",
+            "line": 7,
+            "description": "Non-penetration constraint equation.",
+            "is_constructor": 1,
+            "extends": "Equation",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                }
+            ]
+        },
+        "DistanceConstraint": {
+            "name": "DistanceConstraint",
+            "shortname": "DistanceConstraint",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/constraints/DistanceConstraint.js",
+            "line": 7,
+            "description": "Constraint that tries to keep the distance between two bodies constant.",
+            "is_constructor": 1,
+            "author": "schteppe",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "dist",
+                    "description": "The distance to keep between the bodies.",
+                    "type": "Number"
+                },
+                {
+                    "name": "maxForce",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "extends": "{Constraint}"
+        },
+        "Equation": {
+            "name": "Equation",
+            "shortname": "Equation",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/constraints/Equation.js",
+            "line": 3,
+            "description": "Base class for constraint equations.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "First body participating in the equation",
+                    "type": "Body"
+                },
+                {
+                    "name": "bj",
+                    "description": "Second body participating in the equation",
+                    "type": "Body"
+                },
+                {
+                    "name": "minForce",
+                    "description": "Minimum force to apply. Default: -1e6",
+                    "type": "Number"
+                },
+                {
+                    "name": "maxForce",
+                    "description": "Maximum force to apply. Default: 1e6",
+                    "type": "Number"
+                }
+            ]
+        },
+        "FrictionEquation": {
+            "name": "FrictionEquation",
+            "shortname": "FrictionEquation",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/constraints/FrictionEquation.js",
+            "line": 19,
+            "description": "Constrains the slipping in a contact along a tangent",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "slipForce",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "extends": "{Equation}"
+        },
+        "PointToPointConstraint": {
+            "name": "PointToPointConstraint",
+            "shortname": "PointToPointConstraint",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/constraints/PointToPointConstraint.js",
+            "line": 8,
+            "description": "Connects two bodies at given offset points",
+            "is_constructor": 1,
+            "author": "schteppe",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "pivotA",
+                    "description": "The point relative to the center of mass of bodyA which bodyA is constrained to.",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "Body that will be constrained in a similar way to the same point as bodyA. We will therefore get sort of a link between bodyA and bodyB. If not specified, bodyA will be constrained to a static point.",
+                    "type": "Body"
+                },
+                {
+                    "name": "pivotB",
+                    "description": "See pivotA.",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "maxForce",
+                    "description": "The maximum force that should be applied to constrain the bodies.",
+                    "type": "Number"
+                }
+            ],
+            "extends": "{Constraint}",
+            "todo": [
+                "Ability to specify world points"
+            ]
+        },
+        "PrismaticConstraint": {
+            "name": "PrismaticConstraint",
+            "shortname": "PrismaticConstraint",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/constraints/PrismaticConstraint.js",
+            "line": 7,
+            "description": "Constraint that only allows translation along a line between the bodies, no rotation",
+            "is_constructor": 1,
+            "author": "schteppe",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "maxForce",
+                            "description": "",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "worldAxis",
+                            "description": "",
+                            "type": "Array"
+                        },
+                        {
+                            "name": "localAxisA",
+                            "description": "",
+                            "type": "Array"
+                        },
+                        {
+                            "name": "localAxisB",
+                            "description": "",
+                            "type": "Array"
+                        }
+                    ]
+                }
+            ],
+            "extends": "{Constraint}"
+        },
+        "RotationalVelocityEquation": {
+            "name": "RotationalVelocityEquation",
+            "shortname": "RotationalVelocityEquation",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/constraints/RotationalVelocityEquation.js",
+            "line": 6,
+            "description": "Syncs rotational velocity of two bodies, or sets a relative velocity (motor).",
+            "is_constructor": 1,
+            "extends": "Equation",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                }
+            ]
+        },
+        "ContactMaterial": {
+            "name": "ContactMaterial",
+            "shortname": "ContactMaterial",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/material/ContactMaterial.js",
+            "line": 5,
+            "description": "Defines a physics material.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "materialA",
+                    "description": "",
+                    "type": "Material"
+                },
+                {
+                    "name": "materialB",
+                    "description": "",
+                    "type": "Material"
+                },
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "friction",
+                            "description": "",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "restitution",
+                            "description": "",
+                            "type": "Number"
+                        }
+                    ]
+                }
+            ],
+            "author": "schteppe"
+        },
+        "Material": {
+            "name": "Material",
+            "shortname": "Material",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/material/Material.js",
+            "line": 5,
+            "description": "Defines a physics material.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "string",
+                    "description": "name"
+                }
+            ],
+            "author": "schteppe"
+        },
+        "mat2": {
+            "name": "mat2",
+            "shortname": "mat2",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/math/mat2.js",
+            "line": 1,
+            "description": "The mat2 object from glMatrix, extended with the functions documented here. See http://glmatrix.net for full doc."
+        },
+        "vec2": {
+            "name": "vec2",
+            "shortname": "vec2",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/math/vec2.js",
+            "line": 1,
+            "description": "The vec2 object from glMatrix, extended with the functions documented here. See http://glmatrix.net for full doc."
+        },
+        "Body": {
+            "name": "Body",
+            "shortname": "Body",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/objects/Body.js",
+            "line": 7,
+            "description": "A physics body.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "shape",
+                            "description": "Used for collision detection. If absent the body will not collide.",
+                            "type": "Shape"
+                        },
+                        {
+                            "name": "mass",
+                            "description": "A number >= 0. If zero, the body becomes static. Defaults to static [0].",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "position",
+                            "description": "",
+                            "type": "Float32Array"
+                        },
+                        {
+                            "name": "velocity",
+                            "description": "",
+                            "type": "Float32Array"
+                        },
+                        {
+                            "name": "angle",
+                            "description": "",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "angularVelocity",
+                            "description": "",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "force",
+                            "description": "",
+                            "type": "Float32Array"
+                        },
+                        {
+                            "name": "angularForce",
+                            "description": "",
+                            "type": "Number"
+                        }
+                    ]
+                }
+            ],
+            "todo": [
+                "Should not take mass as an argument to Body",
+                "but as density to each Shape"
+            ]
+        },
+        "Spring": {
+            "name": "Spring",
+            "shortname": "Spring",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/objects/Spring.js",
+            "line": 5,
+            "description": "A spring, connecting two bodies.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "restLength",
+                            "description": "A number > 0. Default: 1",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "stiffness",
+                            "description": "A number >= 0. Default: 100",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "damping",
+                            "description": "A number >= 0. Default: 1",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "worldAnchorA",
+                            "description": "Where to hook the spring to body A, in world coordinates.",
+                            "type": "Array"
+                        },
+                        {
+                            "name": "worldAnchorB",
+                            "description": "",
+                            "type": "Array"
+                        },
+                        {
+                            "name": "localAnchorA",
+                            "description": "Where to hook the spring to body A, in local body coordinates.",
+                            "type": "Array"
+                        },
+                        {
+                            "name": "localAnchorB",
+                            "description": "",
+                            "type": "Array"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Capsule": {
+            "name": "Capsule",
+            "shortname": "Capsule",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/shapes/Capsule.js",
+            "line": 6,
+            "description": "Capsule shape class.",
+            "is_constructor": 1,
+            "extends": "{Shape}",
+            "params": [
+                {
+                    "name": "length",
+                    "description": "The distance between the end points",
+                    "type": "Number"
+                },
+                {
+                    "name": "radius",
+                    "description": "Radius of the capsule",
+                    "type": "Number"
+                }
+            ]
+        },
+        "Circle": {
+            "name": "Circle",
+            "shortname": "Circle",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/shapes/Circle.js",
+            "line": 5,
+            "description": "Circle shape class.",
+            "extends": "{Shape}",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "radius",
+                    "description": "",
+                    "type": "Number"
+                }
+            ]
+        },
+        "Convex": {
+            "name": "Convex",
+            "shortname": "Convex",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/shapes/Convex.js",
+            "line": 7,
+            "description": "Convex shape class.",
+            "is_constructor": 1,
+            "extends": "{Shape}",
+            "params": [
+                {
+                    "name": "vertices",
+                    "description": "An array of Float32Array vertices that span this shape. Vertices are given in counter-clockwise (CCW) direction.",
+                    "type": "Array"
+                }
+            ]
+        },
+        "Plane": {
+            "name": "Plane",
+            "shortname": "Plane",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/shapes/Plane.js",
+            "line": 5,
+            "description": "Plane shape class. The plane is facing in the Y direction.",
+            "extends": "{Shape}",
+            "is_constructor": 1
+        },
+        "Particle": {
+            "name": "Particle",
+            "shortname": "Particle",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/shapes/Particle.js",
+            "line": 5,
+            "description": "Particle shape class.",
+            "is_constructor": 1,
+            "extends": "{Shape}"
+        },
+        "Rectangle": {
+            "name": "Rectangle",
+            "shortname": "Rectangle",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/shapes/Rectangle.js",
+            "line": 7,
+            "description": "Rectangle shape class.",
+            "is_constructor": 1,
+            "extends": "{Convex}"
+        },
+        "Shape": {
+            "name": "Shape",
+            "shortname": "Shape",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/shapes/Shape.js",
+            "line": 3,
+            "description": "Base class for shapes.",
+            "is_constructor": 1
+        },
+        "GSSolver": {
+            "name": "GSSolver",
+            "shortname": "GSSolver",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/solver/GSSolver.js",
+            "line": 8,
+            "description": "Iterative Gauss-Seidel constraint equation solver.",
+            "is_constructor": 1,
+            "extends": "Solver",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "iterations",
+                            "description": "",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "timeStep",
+                            "description": "",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "stiffness",
+                            "description": "",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "relaxation",
+                            "description": "",
+                            "type": "Number"
+                        },
+                        {
+                            "name": "tolerance",
+                            "description": "",
+                            "type": "Number"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Island": {
+            "name": "Island",
+            "shortname": "Island",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/solver/Island.js",
+            "line": 3,
+            "description": "An island of bodies connected with equations.",
+            "is_constructor": 1
+        },
+        "IslandSolver": {
+            "name": "IslandSolver",
+            "shortname": "IslandSolver",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/solver/IslandSolver.js",
+            "line": 9,
+            "description": "Splits the system of bodies and equations into independent islands",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "subsolver",
+                    "description": "",
+                    "type": "Solver"
+                }
+            ],
+            "extends": "Solver"
+        },
+        "Solver": {
+            "name": "Solver",
+            "shortname": "Solver",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/solver/Solver.js",
+            "line": 3,
+            "description": "Base class for constraint solvers.",
+            "is_constructor": 1
+        },
+        "World": {
+            "name": "World",
+            "shortname": "World",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "src/world/World.js",
+            "line": 32,
+            "description": "The dynamics world, where all bodies and constraints lives.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "optional": true,
+                    "props": [
+                        {
+                            "name": "solver",
+                            "description": "Defaults to GSSolver.",
+                            "type": "Solver"
+                        },
+                        {
+                            "name": "gravity",
+                            "description": "Defaults to [0,-9.78]",
+                            "type": "Float32Array"
+                        },
+                        {
+                            "name": "broadphase",
+                            "description": "Defaults to NaiveBroadphase",
+                            "type": "Broadphase"
+                        }
+                    ]
+                }
+            ],
+            "extends": "{EventEmitter}"
+        }
+    },
+    "classitems": [
+        {
+            "file": "src/collision/Broadphase.js",
+            "line": 16,
+            "description": "Get all potential intersecting body pairs.",
+            "itemtype": "method",
+            "name": "getCollisionPairs",
+            "params": [
+                {
+                    "name": "world",
+                    "description": "The world to search in.",
+                    "type": "World"
+                }
+            ],
+            "return": {
+                "description": "An array of the bodies, ordered in pairs. Example: A result of [a,b,c,d] means that the potential pairs are: (a,b), (c,d).",
+                "type": "Array"
+            },
+            "class": "Broadphase"
+        },
+        {
+            "file": "src/collision/Broadphase.js",
+            "line": 31,
+            "description": "Check whether the bounding radius of two bodies overlap.",
+            "itemtype": "method",
+            "name": "boundingRadiusCheck",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "class": "Broadphase"
+        },
+        {
+            "file": "src/collision/GridBroadphase.js",
+            "line": 39,
+            "description": "Get a bin index given a world coordinate",
+            "itemtype": "method",
+            "name": "getBinIndex",
+            "params": [
+                {
+                    "name": "x",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "y",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Integer index",
+                "type": "Number"
+            },
+            "class": "GridBroadphase"
+        },
+        {
+            "file": "src/collision/GridBroadphase.js",
+            "line": 59,
+            "description": "Get collision pairs.",
+            "itemtype": "method",
+            "name": "getCollisionPairs",
+            "params": [
+                {
+                    "name": "world",
+                    "description": "",
+                    "type": "World"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "GridBroadphase"
+        },
+        {
+            "file": "src/collision/NaiveBroadphase.js",
+            "line": 22,
+            "description": "Get the colliding pairs",
+            "itemtype": "method",
+            "name": "getCollisionPairs",
+            "params": [
+                {
+                    "name": "world",
+                    "description": "",
+                    "type": "World"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "NaiveBroadphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 45,
+            "description": "Throws away the old equatons and gets ready to create new",
+            "itemtype": "method",
+            "name": "reset",
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 64,
+            "description": "Creates a ContactEquation, either by reusing an existing object or creating a new one.",
+            "itemtype": "method",
+            "name": "createContactEquation",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "ContactEquation"
+            },
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 78,
+            "description": "Creates a FrictionEquation, either by reusing an existing object or creating a new one.",
+            "itemtype": "method",
+            "name": "createFrictionEquation",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "FrictionEquation"
+            },
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 93,
+            "description": "Creates a FrictionEquation given the data in the ContactEquation. Uses same offset vectors ri and rj, but the tangent vector will be constructed from the collision normal.",
+            "itemtype": "method",
+            "name": "createFrictionFromContact",
+            "params": [
+                {
+                    "name": "contactEquation",
+                    "description": "",
+                    "type": "ContactEquation"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "FrictionEquation"
+            },
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 107,
+            "description": "Plane/line nearphase",
+            "itemtype": "method",
+            "name": "planeLine",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Plane"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Line"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 204,
+            "description": "Circle/line nearphase",
+            "itemtype": "method",
+            "name": "circleLine",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Circle"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Line"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "justTest",
+                    "description": "If set to true, this function will return the result (intersection or not) without adding equations.",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "lineRadius",
+                    "description": "Radius to add to the line. Can be used to test Capsules.",
+                    "type": "Number"
+                },
+                {
+                    "name": "circleRadius",
+                    "description": "If set, this value overrides the circle shape radius.",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 360,
+            "description": "Circle/capsule nearphase",
+            "itemtype": "method",
+            "name": "circleCapsule",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Circle"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Line"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 376,
+            "description": "Circle/convex nearphase",
+            "itemtype": "method",
+            "name": "circleConvex",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Circle"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 509,
+            "description": "Particle/convex nearphase",
+            "itemtype": "method",
+            "name": "particleConvex",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Particle"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 625,
+            "description": "Circle/circle nearphase",
+            "itemtype": "method",
+            "name": "circleCircle",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Circle"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Circle"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 675,
+            "description": "Convex/Plane nearphase",
+            "itemtype": "method",
+            "name": "convexPlane",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Plane"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 748,
+            "description": "Nearphase for particle vs plane",
+            "itemtype": "method",
+            "name": "particlePlane",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "The particle body",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "Particle shape",
+                    "type": "Particle"
+                },
+                {
+                    "name": "xi",
+                    "description": "World position for the particle",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "World angle for the particle",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "Plane body",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "Plane shape",
+                    "type": "Plane"
+                },
+                {
+                    "name": "xj",
+                    "description": "World position for the plane",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "World angle for the plane",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 803,
+            "description": "Circle/Particle nearphase",
+            "itemtype": "method",
+            "name": "circleParticle",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Circle"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Particle"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 875,
+            "description": "Creates ContactEquations and FrictionEquations for a collision.",
+            "itemtype": "method",
+            "name": "circlePlane",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "The first body that should be connected to the equations.",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "The circle shape participating in the collision.",
+                    "type": "Circle"
+                },
+                {
+                    "name": "xi",
+                    "description": "Extra offset to take into account for the Shape, in addition to the one in circleBody.position. Will *not* be rotated by circleBody.angle (maybe it should, for sake of homogenity?). Set to null if none.",
+                    "type": "Array"
+                },
+                {
+                    "name": "bj",
+                    "description": "The second body that should be connected to the equations.",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "The Plane shape that is participating",
+                    "type": "Plane"
+                },
+                {
+                    "name": "xj",
+                    "description": "Extra offset for the plane shape.",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "Extra angle to apply to the plane",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 939,
+            "description": "Convex/convex nearphase.See <a href=\"http://www.altdevblogaday.com/2011/05/13/contact-generation-between-3d-convex-meshes/\">this article</a> for more info.",
+            "itemtype": "method",
+            "name": "convexConvex",
+            "params": [
+                {
+                    "name": "bi",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "si",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "xi",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "ai",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "bj",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "sj",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "xj",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "aj",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 1083,
+            "description": "Project a Convex onto a world-oriented axis",
+            "itemtype": "method",
+            "name": "projectConvexOntoAxis",
+            "static": 1,
+            "params": [
+                {
+                    "name": "convexShape",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "convexOffset",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "convexAngle",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "worldAxis",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "result",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 1131,
+            "description": "Find a separating axis between the shapes, that maximizes the separating distance between them.",
+            "itemtype": "method",
+            "name": "findSeparatingAxis",
+            "static": 1,
+            "params": [
+                {
+                    "name": "c1",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "offset1",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "angle1",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "c2",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "offset2",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "angle2",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "sepAxis",
+                    "description": "The resulting axis",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "Whether the axis could be found.",
+                "type": "Boolean"
+            },
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/Nearphase.js",
+            "line": 1210,
+            "description": "Get the edge that has a normal closest to an axis.",
+            "itemtype": "method",
+            "name": "getClosestEdge",
+            "static": 1,
+            "params": [
+                {
+                    "name": "c",
+                    "description": "",
+                    "type": "Convex"
+                },
+                {
+                    "name": "angle",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "axis",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "flip",
+                    "description": "",
+                    "type": "Boolean"
+                }
+            ],
+            "return": {
+                "description": "Index of the edge that is closest. This index and the next spans the resulting edge. Returns -1 if failed.",
+                "type": "Number"
+            },
+            "class": "Nearphase"
+        },
+        {
+            "file": "src/collision/QuadTree.js",
+            "line": 29,
+            "description": "The root node of the QuadTree which covers the entire area being segmented.",
+            "itemtype": "property",
+            "name": "root",
+            "type": "Node",
+            "class": "QuadTree"
+        },
+        {
+            "file": "src/collision/QuadTree.js",
+            "line": 37,
+            "description": "Inserts an item into the QuadTree.",
+            "itemtype": "method",
+            "name": "insert",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "The item or Array of items to be inserted into the QuadTree. The item should expose x, y\nproperties that represents its position in 2D space.",
+                    "type": "Object|Array"
+                }
+            ],
+            "class": "QuadTree"
+        },
+        {
+            "file": "src/collision/QuadTree.js",
+            "line": 54,
+            "description": "Clears all nodes and children from the QuadTree",
+            "itemtype": "method",
+            "name": "clear",
+            "class": "QuadTree"
+        },
+        {
+            "file": "src/collision/QuadTree.js",
+            "line": 62,
+            "description": "Retrieves all items / points in the same node as the specified item / point. If the specified item\noverlaps the bounds of a node, then all children in both nodes will be returned.",
+            "itemtype": "method",
+            "name": "retrieve",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "An object representing a 2D coordinate point (with x, y properties), or a shape\nwith dimensions (x, y, width, height) properties.",
+                    "type": "Object"
+                }
+            ],
+            "class": "QuadTree"
+        },
+        {
+            "file": "src/collision/SAP1DBroadphase.js",
+            "line": 21,
+            "description": "List of bodies currently in the broadphase.",
+            "itemtype": "property",
+            "name": "axisList",
+            "type": "{Array}",
+            "class": "SAP1DBroadphase"
+        },
+        {
+            "file": "src/collision/SAP1DBroadphase.js",
+            "line": 28,
+            "description": "The world to search in.",
+            "itemtype": "property",
+            "name": "world",
+            "type": "{World}",
+            "class": "SAP1DBroadphase"
+        },
+        {
+            "file": "src/collision/SAP1DBroadphase.js",
+            "line": 35,
+            "description": "Axis to sort the bodies along. Set to 0 for x axis, and 1 for y axis. For best performance, choose an axis that the bodies are spread out more on.",
+            "itemtype": "property",
+            "name": "axisIndex",
+            "type": "{Number}",
+            "class": "SAP1DBroadphase"
+        },
+        {
+            "file": "src/collision/SAP1DBroadphase.js",
+            "line": 54,
+            "description": "Function for sorting bodies along the X axis. To be passed to array.sort()",
+            "itemtype": "method",
+            "name": "sortAxisListX",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "class": "SAP1DBroadphase"
+        },
+        {
+            "file": "src/collision/SAP1DBroadphase.js",
+            "line": 65,
+            "description": "Function for sorting bodies along the Y axis. To be passed to array.sort()",
+            "itemtype": "method",
+            "name": "sortAxisListY",
+            "params": [
+                {
+                    "name": "bodyA",
+                    "description": "",
+                    "type": "Body"
+                },
+                {
+                    "name": "bodyB",
+                    "description": "",
+                    "type": "Body"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "class": "SAP1DBroadphase"
+        },
+        {
+            "file": "src/collision/SAP1DBroadphase.js",
+            "line": 76,
+            "description": "Get the colliding pairs",
+            "itemtype": "method",
+            "name": "getCollisionPairs",
+            "params": [
+                {
+                    "name": "world",
+                    "description": "",
+                    "type": "World"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "SAP1DBroadphase"
+        },
+        {
+            "file": "src/constraints/Constraint.js",
+            "line": 14,
+            "description": "Equations to be solved in this constraint",
+            "itemtype": "property",
+            "name": "equations",
+            "type": "{Array}",
+            "class": "Constraint"
+        },
+        {
+            "file": "src/constraints/Constraint.js",
+            "line": 21,
+            "description": "First body participating in the constraint.",
+            "itemtype": "property",
+            "name": "bodyA",
+            "type": "{Body}",
+            "class": "Constraint"
+        },
+        {
+            "file": "src/constraints/Constraint.js",
+            "line": 28,
+            "description": "Second body participating in the constraint.",
+            "itemtype": "property",
+            "name": "bodyB",
+            "type": "{Body}",
+            "class": "Constraint"
+        },
+        {
+            "file": "src/constraints/Constraint.js",
+            "line": 36,
+            "description": "To be implemented by subclasses. Should update the internal constraint parameters.",
+            "itemtype": "method",
+            "name": "update",
+            "class": "Constraint"
+        },
+        {
+            "file": "src/constraints/DistanceConstraint.js",
+            "line": 38,
+            "description": "Update the constraint equations. Should be done if any of the bodies changed position, before solving.",
+            "itemtype": "method",
+            "name": "update",
+            "class": "DistanceConstraint"
+        },
+        {
+            "file": "src/constraints/Equation.js",
+            "line": 14,
+            "description": "Minimum force to apply when solving",
+            "itemtype": "property",
+            "name": "minForce",
+            "type": "{Number}",
+            "class": "Equation"
+        },
+        {
+            "file": "src/constraints/Equation.js",
+            "line": 21,
+            "description": "Max force to apply when solving",
+            "itemtype": "property",
+            "name": "maxForce",
+            "type": "{Number}",
+            "class": "Equation"
+        },
+        {
+            "file": "src/constraints/Equation.js",
+            "line": 28,
+            "description": "First body participating in the constraint",
+            "itemtype": "property",
+            "name": "bi",
+            "type": "{Body}",
+            "class": "Equation"
+        },
+        {
+            "file": "src/constraints/Equation.js",
+            "line": 35,
+            "description": "Second body participating in the constraint",
+            "itemtype": "property",
+            "name": "bj",
+            "type": "{Body}",
+            "class": "Equation"
+        },
+        {
+            "file": "src/constraints/Equation.js",
+            "line": 42,
+            "description": "The stiffness of this equation. Typically chosen to a large number (~1e7), but can be chosen somewhat freely to get a stable simulation.",
+            "itemtype": "property",
+            "name": "stiffness",
+            "type": "{Number}",
+            "class": "Equation"
+        },
+        {
+            "file": "src/constraints/Equation.js",
+            "line": 49,
+            "description": "The number of time steps needed to stabilize the constraint equation. Typically between 3 and 5 time steps.",
+            "itemtype": "property",
+            "name": "relaxation",
+            "type": "{Number}",
+            "class": "Equation"
+        },
+        {
+            "file": "src/constraints/Equation.js",
+            "line": 64,
+            "description": "Update SPOOK parameters .a, .b and .eps according to the given time step. See equations 9, 10 and 11 in the <a href=\"http://www8.cs.umu.se/kurser/5DV058/VT09/lectures/spooknotes.pdf\">SPOOK notes</a>.",
+            "itemtype": "method",
+            "name": "updateSpookParams",
+            "params": [
+                {
+                    "name": "timeStep",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Equation"
+        },
+        {
+            "file": "src/constraints/FrictionEquation.js",
+            "line": 40,
+            "description": "Set the slipping condition for the constraint. If the force",
+            "itemtype": "method",
+            "name": "setSlipForce",
+            "params": [
+                {
+                    "name": "slipForce",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "FrictionEquation"
+        },
+        {
+            "file": "src/constraints/PointToPointConstraint.js",
+            "line": 65,
+            "description": "Enable the rotational motor",
+            "itemtype": "method",
+            "name": "enableMotor",
+            "class": "PointToPointConstraint"
+        },
+        {
+            "file": "src/constraints/PointToPointConstraint.js",
+            "line": 75,
+            "description": "Disable the rotational motor",
+            "itemtype": "method",
+            "name": "disableMotor",
+            "class": "PointToPointConstraint"
+        },
+        {
+            "file": "src/constraints/PointToPointConstraint.js",
+            "line": 86,
+            "description": "Set the speed of the rotational constraint motor",
+            "itemtype": "method",
+            "name": "setMotorSpeed",
+            "params": [
+                {
+                    "name": "speed",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "PointToPointConstraint"
+        },
+        {
+            "file": "src/constraints/PrismaticConstraint.js",
+            "line": 60,
+            "description": "Update the constraint equations. Should be done if any of the bodies changed position, before solving.",
+            "itemtype": "method",
+            "name": "update",
+            "class": "PrismaticConstraint"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 19,
+            "description": "The contact material identifier",
+            "itemtype": "property",
+            "name": "id",
+            "type": "{Number}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 26,
+            "description": "First material participating in the contact material",
+            "itemtype": "property",
+            "name": "materialA",
+            "type": "{Material}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 33,
+            "description": "Second material participating in the contact material",
+            "itemtype": "property",
+            "name": "materialB",
+            "type": "{Material}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 40,
+            "description": "Friction to use in the contact of these two materials",
+            "itemtype": "property",
+            "name": "friction",
+            "type": "{Number}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 47,
+            "description": "Restitution to use in the contact of these two materials",
+            "itemtype": "property",
+            "name": "restitution",
+            "type": "{Number}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 54,
+            "description": "Stiffness of the resulting ContactEquation that this ContactMaterial generate",
+            "itemtype": "property",
+            "name": "stiffness",
+            "type": "{Number}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 61,
+            "description": "Relaxation of the resulting ContactEquation that this ContactMaterial generate",
+            "itemtype": "property",
+            "name": "relaxation",
+            "type": "{Number}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 68,
+            "description": "Stiffness of the resulting FrictionEquation that this ContactMaterial generate",
+            "itemtype": "property",
+            "name": "frictionStiffness",
+            "type": "{Number}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/ContactMaterial.js",
+            "line": 75,
+            "description": "Relaxation of the resulting FrictionEquation that this ContactMaterial generate",
+            "itemtype": "property",
+            "name": "frictionRelaxation",
+            "type": "{Number}",
+            "class": "ContactMaterial"
+        },
+        {
+            "file": "src/material/Material.js",
+            "line": 13,
+            "description": "The material identifier",
+            "itemtype": "property",
+            "name": "id",
+            "type": "{Number}",
+            "class": "Material"
+        },
+        {
+            "file": "src/math/vec2.js",
+            "line": 11,
+            "description": "Get the vector x component",
+            "itemtype": "method",
+            "name": "getX",
+            "static": 1,
+            "params": [
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Float32Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "class": "vec2"
+        },
+        {
+            "file": "src/math/vec2.js",
+            "line": 22,
+            "description": "Get the vector y component",
+            "itemtype": "method",
+            "name": "getY",
+            "static": 1,
+            "params": [
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Float32Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "class": "vec2"
+        },
+        {
+            "file": "src/math/vec2.js",
+            "line": 33,
+            "description": "Make a cross product and only return the z component",
+            "itemtype": "method",
+            "name": "crossLength",
+            "static": 1,
+            "params": [
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "b",
+                    "description": "",
+                    "type": "Float32Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "class": "vec2"
+        },
+        {
+            "file": "src/math/vec2.js",
+            "line": 45,
+            "description": "Cross product between a vector and the Z component of a vector",
+            "itemtype": "method",
+            "name": "crossVZ",
+            "static": 1,
+            "params": [
+                {
+                    "name": "out",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "vec",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "zcomp",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "class": "vec2"
+        },
+        {
+            "file": "src/math/vec2.js",
+            "line": 60,
+            "description": "Cross product between a vector and the Z component of a vector",
+            "itemtype": "method",
+            "name": "crossZV",
+            "static": 1,
+            "params": [
+                {
+                    "name": "out",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "zcomp",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "vec",
+                    "description": "",
+                    "type": "Float32Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "class": "vec2"
+        },
+        {
+            "file": "src/math/vec2.js",
+            "line": 75,
+            "description": "Rotate a vector by an angle",
+            "itemtype": "method",
+            "name": "rotate",
+            "static": 1,
+            "params": [
+                {
+                    "name": "out",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "angle",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "vec2"
+        },
+        {
+            "file": "src/math/vec2.js",
+            "line": 104,
+            "description": "Compute centroid of a triangle spanned by vectors a,b,c. See http://easycalculation.com/analytical/learn-centroid.php",
+            "itemtype": "method",
+            "name": "centroid",
+            "static": 1,
+            "params": [
+                {
+                    "name": "out",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "b",
+                    "description": "",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "c",
+                    "description": "",
+                    "type": "Float32Array"
+                }
+            ],
+            "return": {
+                "description": "The out object",
+                "type": "Float32Array"
+            },
+            "class": "vec2"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 26,
+            "description": "The body identifyer",
+            "itemtype": "property",
+            "name": "id",
+            "type": "{Number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 33,
+            "description": "The shapes of the body.",
+            "itemtype": "property",
+            "name": "shapes",
+            "type": "{Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 40,
+            "description": "The local shape offsets, relative to the body center of mass.",
+            "itemtype": "property",
+            "name": "shapeOffsets",
+            "type": "{Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 47,
+            "description": "The body-local shape angle transformations.",
+            "itemtype": "property",
+            "name": "shapeAngles",
+            "type": "{Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 54,
+            "description": "The mass of the body.",
+            "itemtype": "property",
+            "name": "mass",
+            "type": "{number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 61,
+            "description": "The inverse mass of the body.",
+            "itemtype": "property",
+            "name": "invMass",
+            "type": "{number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 68,
+            "description": "The inertia of the body around the Z axis.",
+            "itemtype": "property",
+            "name": "inertia",
+            "type": "{number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 75,
+            "description": "The inverse inertia of the body.",
+            "itemtype": "property",
+            "name": "invInertia",
+            "type": "{number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 84,
+            "description": "The position of the body",
+            "itemtype": "property",
+            "name": "position",
+            "type": "{Float32Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 92,
+            "description": "The velocity of the body",
+            "itemtype": "property",
+            "name": "velocity",
+            "type": "{Float32Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 100,
+            "description": "Constraint velocity that was added to the body during the last step.",
+            "itemtype": "property",
+            "name": "vlambda",
+            "type": "{Float32Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 107,
+            "description": "Angular constraint velocity that was added to the body during the last step.",
+            "itemtype": "property",
+            "name": "wlambda",
+            "type": "{Float32Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 114,
+            "description": "The angle of the body",
+            "itemtype": "property",
+            "name": "angle",
+            "type": "{number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 121,
+            "description": "The angular velocity of the body",
+            "itemtype": "property",
+            "name": "angularVelocity",
+            "type": "{number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 128,
+            "description": "The force acting on the body",
+            "itemtype": "property",
+            "name": "force",
+            "type": "{Float32Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 136,
+            "description": "The angular force acting on the body",
+            "itemtype": "property",
+            "name": "angularForce",
+            "type": "{number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 143,
+            "description": "The type of motion this body has. Should be one of: Body.STATIC, Body.DYNAMIC and Body.KINEMATIC.",
+            "itemtype": "property",
+            "name": "motionState",
+            "type": "{number}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 150,
+            "description": "Bounding box max point, in world coordinates.",
+            "itemtype": "property",
+            "name": "aabbMin",
+            "type": "{Array}",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 177,
+            "description": "Add a shape to the body",
+            "itemtype": "method",
+            "name": "addShape",
+            "params": [
+                {
+                    "name": "shape",
+                    "description": "",
+                    "type": "Shape"
+                },
+                {
+                    "name": "offset",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "angle",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 192,
+            "description": "Updates .inertia, .invMass, .invInertia for this Body. Should be called when changing the structure of the Body.",
+            "itemtype": "method",
+            "name": "updateMassProperties",
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 216,
+            "description": "Apply force to a world point. This could for example be a point on the RigidBody surface. Applying force this way will add to Body.force and Body.angularForce.",
+            "itemtype": "method",
+            "name": "applyForce",
+            "params": [
+                {
+                    "name": "force",
+                    "description": "The force to add.",
+                    "type": "Float32Array"
+                },
+                {
+                    "name": "worldPoint",
+                    "description": "A world point to apply the force on.",
+                    "type": "Float32Array"
+                }
+            ],
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 238,
+            "description": "Transform a world point to local body frame.",
+            "itemtype": "method",
+            "name": "toLocalFrame",
+            "params": [
+                {
+                    "name": "out",
+                    "description": "The vector to store the result in",
+                    "type": "Array"
+                },
+                {
+                    "name": "worldPoint",
+                    "description": "The input world vector",
+                    "type": "Array"
+                }
+            ],
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 248,
+            "description": "Transform a local point to world frame.",
+            "itemtype": "method",
+            "name": "toWorldFrame",
+            "params": [
+                {
+                    "name": "out",
+                    "description": "The vector to store the result in",
+                    "type": "Array"
+                },
+                {
+                    "name": "localPoint",
+                    "description": "The input local vector",
+                    "type": "Array"
+                }
+            ],
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 258,
+            "description": "Dynamic body.",
+            "itemtype": "property",
+            "name": "DYNAMIC",
+            "type": "{Number}",
+            "static": 1,
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 266,
+            "description": "Static body.",
+            "itemtype": "property",
+            "name": "STATIC",
+            "type": "{Number}",
+            "static": 1,
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Body.js",
+            "line": 274,
+            "description": "Kinematic body.",
+            "itemtype": "property",
+            "name": "KINEMATIC",
+            "type": "{Number}",
+            "static": 1,
+            "class": "Body"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 24,
+            "description": "Rest length of the spring.",
+            "itemtype": "property",
+            "name": "restLength",
+            "type": "{number}",
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 31,
+            "description": "Stiffness of the spring.",
+            "itemtype": "property",
+            "name": "stiffness",
+            "type": "{number}",
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 38,
+            "description": "Damping of the spring.",
+            "itemtype": "property",
+            "name": "damping",
+            "type": "{number}",
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 45,
+            "description": "First connected body.",
+            "itemtype": "property",
+            "name": "bodyA",
+            "type": "{Body}",
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 52,
+            "description": "Second connected body.",
+            "itemtype": "property",
+            "name": "bodyB",
+            "type": "{Body}",
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 59,
+            "description": "Anchor for bodyA in local bodyA coordinates.",
+            "itemtype": "property",
+            "name": "localAnchorA",
+            "type": "{Array}",
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 66,
+            "description": "Anchor for bodyB in local bodyB coordinates.",
+            "itemtype": "property",
+            "name": "localAnchorB",
+            "type": "{Array}",
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 79,
+            "description": "Set the anchor point on body A, using world coordinates.",
+            "itemtype": "method",
+            "name": "setWorldAnchorA",
+            "params": [
+                {
+                    "name": "worldAnchorA",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 88,
+            "description": "Set the anchor point on body B, using world coordinates.",
+            "itemtype": "method",
+            "name": "setWorldAnchorB",
+            "params": [
+                {
+                    "name": "worldAnchorB",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 97,
+            "description": "Get the anchor point on body A, in world coordinates.",
+            "itemtype": "method",
+            "name": "getWorldAnchorA",
+            "params": [
+                {
+                    "name": "result",
+                    "description": "The vector to store the result in.",
+                    "type": "Array"
+                }
+            ],
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 106,
+            "description": "Get the anchor point on body B, in world coordinates.",
+            "itemtype": "method",
+            "name": "getWorldAnchorB",
+            "params": [
+                {
+                    "name": "result",
+                    "description": "The vector to store the result in.",
+                    "type": "Array"
+                }
+            ],
+            "class": "Spring"
+        },
+        {
+            "file": "src/objects/Spring.js",
+            "line": 125,
+            "description": "Apply the spring force to the connected bodies.",
+            "itemtype": "method",
+            "name": "applyForce",
+            "class": "Spring"
+        },
+        {
+            "file": "src/shapes/Capsule.js",
+            "line": 22,
+            "description": "Compute the mass moment of inertia of the Capsule.",
+            "itemtype": "method",
+            "name": "conputeMomentOfInertia",
+            "params": [
+                {
+                    "name": "mass",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "todo": [
+                ""
+            ],
+            "class": "Capsule"
+        },
+        {
+            "file": "src/shapes/Circle.js",
+            "line": 14,
+            "description": "The radius of the circle.",
+            "itemtype": "property",
+            "name": "radius",
+            "type": "{number}",
+            "class": "Circle"
+        },
+        {
+            "file": "src/shapes/Convex.js",
+            "line": 16,
+            "description": "Vertices defined in the local frame.",
+            "itemtype": "property",
+            "name": "vertices",
+            "type": "{Array}",
+            "class": "Convex"
+        },
+        {
+            "file": "src/shapes/Convex.js",
+            "line": 23,
+            "description": "The center of mass of the Convex",
+            "itemtype": "property",
+            "name": "centerOfMass",
+            "type": "{Float32Array}",
+            "class": "Convex"
+        },
+        {
+            "file": "src/shapes/Convex.js",
+            "line": 30,
+            "description": "Triangulated version of this convex. The structure is Array of 3-Arrays, and each subarray contains 3 integers, referencing the vertices.",
+            "itemtype": "property",
+            "name": "triangles",
+            "type": "{Array}",
+            "class": "Convex"
+        },
+        {
+            "file": "src/shapes/Convex.js",
+            "line": 42,
+            "description": "The bounding radius of the convex",
+            "itemtype": "property",
+            "name": "boundingRadius",
+            "type": "{Number}",
+            "class": "Convex"
+        },
+        {
+            "file": "src/shapes/Convex.js",
+            "line": 125,
+            "description": "Compute the mass moment of inertia of the Convex.",
+            "itemtype": "method",
+            "name": "conputeMomentOfInertia",
+            "params": [
+                {
+                    "name": "mass",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "todo": [
+                "should use .triangles"
+            ],
+            "class": "Convex"
+        },
+        {
+            "file": "src/shapes/Convex.js",
+            "line": 198,
+            "description": "Updates the .boundingRadius property",
+            "itemtype": "method",
+            "name": "updateBoundingRadius",
+            "class": "Convex"
+        },
+        {
+            "file": "src/shapes/Line.js",
+            "line": 13,
+            "description": "Length of this line",
+            "itemtype": "property",
+            "name": "length",
+            "type": "{Number}",
+            "class": "Plane"
+        },
+        {
+            "file": "src/shapes/Rectangle.js",
+            "line": 26,
+            "description": "Compute moment of inertia",
+            "itemtype": "method",
+            "name": "computeMomentOfInertia",
+            "params": [
+                {
+                    "name": "mass",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "class": "Rectangle"
+        },
+        {
+            "file": "src/shapes/Shape.js",
+            "line": 12,
+            "description": "Collision group that this shape belongs to (bit mask). See <a href=\"http://www.aurelienribon.com/blog/2011/07/box2d-tutorial-collision-filtering/\">this tutorial</a>.",
+            "itemtype": "property",
+            "name": "collisionGroup",
+            "type": "{Number}",
+            "example": [
+                "\n    if(shapeA.collisionGroup & shapeB.collisionMask)!=0 && (shapeB.collisionGroup & shapeA.collisionMask)!=0){\n        // The shapes will collide\n    }"
+            ],
+            "class": "Shape"
+        },
+        {
+            "file": "src/shapes/Shape.js",
+            "line": 23,
+            "description": "Collision mask of this shape.",
+            "itemtype": "property",
+            "name": "collisionMask",
+            "type": "{Number}",
+            "class": "Shape"
+        },
+        {
+            "file": "src/shapes/Shape.js",
+            "line": 31,
+            "description": "Material to use in collisions for this Shape",
+            "itemtype": "property",
+            "name": "material",
+            "type": "{Material} Either a Material instance or null.",
+            "class": "Shape"
+        },
+        {
+            "file": "src/shapes/Shape.js",
+            "line": 47,
+            "description": "Should return the moment of inertia around the Z axis of the body given the total mass. See <a href=\"http://en.wikipedia.org/wiki/List_of_moments_of_inertia\">Wikipedia's list of moments of inertia</a>.",
+            "itemtype": "method",
+            "name": "computeMomentOfInertia",
+            "params": [
+                {
+                    "name": "mass",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "If the inertia is infinity or if the object simply isn't possible to rotate, return 0.",
+                "type": "Number"
+            },
+            "class": "Shape"
+        },
+        {
+            "file": "src/solver/GSSolver.js",
+            "line": 32,
+            "description": "Whether to use .stiffness and .relaxation parameters from the Solver instead of each Equation individually.",
+            "type": "{Boolean}",
+            "itemtype": "property",
+            "name": "useGlobalEquationParameters",
+            "class": "GSSolver"
+        },
+        {
+            "file": "src/solver/GSSolver.js",
+            "line": 39,
+            "description": "Global equation stiffness.",
+            "itemtype": "property",
+            "name": "stiffness",
+            "type": "{Number}",
+            "class": "GSSolver"
+        },
+        {
+            "file": "src/solver/GSSolver.js",
+            "line": 46,
+            "description": "Global equation relaxation.",
+            "itemtype": "property",
+            "name": "relaxation",
+            "type": "{Number}",
+            "class": "GSSolver"
+        },
+        {
+            "file": "src/solver/GSSolver.js",
+            "line": 53,
+            "description": "Set to true to set all right hand side terms to zero when solving. Can be handy for a few applications.",
+            "itemtype": "property",
+            "name": "useZeroRHS",
+            "type": "{Boolean}",
+            "class": "GSSolver"
+        },
+        {
+            "file": "src/solver/GSSolver.js",
+            "line": 62,
+            "description": "Set stiffness parameters",
+            "itemtype": "method",
+            "name": "setSpookParams",
+            "params": [
+                {
+                    "name": "k",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "d",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "deprecated": true,
+            "class": "GSSolver"
+        },
+        {
+            "file": "src/solver/GSSolver.js",
+            "line": 75,
+            "description": "Solve the system of equations",
+            "itemtype": "method",
+            "name": "solve",
+            "params": [
+                {
+                    "name": "dt",
+                    "description": "Time step",
+                    "type": "Number"
+                },
+                {
+                    "name": "world",
+                    "description": "World to solve",
+                    "type": "World"
+                }
+            ],
+            "class": "GSSolver"
+        },
+        {
+            "file": "src/solver/Island.js",
+            "line": 10,
+            "description": "Current equations in this island.",
+            "itemtype": "property",
+            "name": "equations",
+            "type": "{Array}",
+            "class": "Island"
+        },
+        {
+            "file": "src/solver/Island.js",
+            "line": 17,
+            "description": "Current bodies in this island.",
+            "itemtype": "property",
+            "name": "bodies",
+            "type": "{Array}",
+            "class": "Island"
+        },
+        {
+            "file": "src/solver/Island.js",
+            "line": 25,
+            "description": "Clean this island from bodies and equations.",
+            "itemtype": "method",
+            "name": "reset",
+            "class": "Island"
+        },
+        {
+            "file": "src/solver/Island.js",
+            "line": 34,
+            "description": "Get all unique bodies in this island.",
+            "itemtype": "method",
+            "name": "getBodies",
+            "return": {
+                "description": "An array of Body",
+                "type": "Array"
+            },
+            "class": "Island"
+        },
+        {
+            "file": "src/solver/Island.js",
+            "line": 57,
+            "description": "Solves all constraints in the group of islands.",
+            "itemtype": "method",
+            "name": "solve",
+            "params": [
+                {
+                    "name": "dt",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "solver",
+                    "description": "",
+                    "type": "Solver"
+                }
+            ],
+            "class": "Island"
+        },
+        {
+            "file": "src/solver/IslandSolver.js",
+            "line": 21,
+            "description": "The solver used in the workers.",
+            "itemtype": "property",
+            "name": "subsolver",
+            "type": "{Solver}",
+            "class": "IslandSolver"
+        },
+        {
+            "file": "src/solver/IslandSolver.js",
+            "line": 28,
+            "description": "Number of islands",
+            "itemtype": "property",
+            "name": "numIslands",
+            "type": "{number}",
+            "class": "IslandSolver"
+        },
+        {
+            "file": "src/solver/IslandSolver.js",
+            "line": 68,
+            "description": "Solves the full system.",
+            "itemtype": "method",
+            "name": "solve",
+            "params": [
+                {
+                    "name": "dt",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "world",
+                    "description": "",
+                    "type": "World"
+                }
+            ],
+            "class": "IslandSolver"
+        },
+        {
+            "file": "src/solver/Solver.js",
+            "line": 10,
+            "description": "Current equations in the solver.",
+            "itemtype": "property",
+            "name": "equations",
+            "type": "{Array}",
+            "class": "Solver"
+        },
+        {
+            "file": "src/solver/Solver.js",
+            "line": 23,
+            "description": "Add an equation to be solved.",
+            "itemtype": "method",
+            "name": "addEquation",
+            "params": [
+                {
+                    "name": "eq",
+                    "description": "",
+                    "type": "Equation"
+                }
+            ],
+            "class": "Solver"
+        },
+        {
+            "file": "src/solver/Solver.js",
+            "line": 33,
+            "description": "Remove an equation.",
+            "itemtype": "method",
+            "name": "removeEquation",
+            "params": [
+                {
+                    "name": "eq",
+                    "description": "",
+                    "type": "Equation"
+                }
+            ],
+            "class": "Solver"
+        },
+        {
+            "file": "src/solver/Solver.js",
+            "line": 45,
+            "description": "Remove all currently added equations.",
+            "itemtype": "method",
+            "name": "removeAllEquations",
+            "class": "Solver"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 48,
+            "description": "All springs in the world.",
+            "itemtype": "property",
+            "name": "springs",
+            "type": "{Array}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 56,
+            "description": "All bodies in the world.",
+            "itemtype": "property",
+            "name": "bodies",
+            "type": "{Array}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 64,
+            "description": "The solver used to satisfy constraints and contacts.",
+            "itemtype": "property",
+            "name": "solver",
+            "type": "{Solver}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 72,
+            "description": "The nearphase to use to generate contacts.",
+            "itemtype": "property",
+            "name": "nearphase",
+            "type": "{Nearphase}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 80,
+            "description": "Gravity in the world. This is applied on all bodies in the beginning of each step().",
+            "itemtype": "property",
+            "name": "",
+            "type": "{Float32Array}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 88,
+            "description": "Whether to do timing measurements during the step() or not.",
+            "itemtype": "property",
+            "name": "doPofiling",
+            "type": "{Boolean}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 96,
+            "description": "How many millisecconds the last step() took. This is updated each step if .doProfiling is set to true.",
+            "itemtype": "property",
+            "name": "lastStepTime",
+            "type": "{Number}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 104,
+            "description": "The broadphase algorithm to use.",
+            "itemtype": "property",
+            "name": "broadphase",
+            "type": "{Broadphase}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 112,
+            "description": "User-added constraints.",
+            "itemtype": "property",
+            "name": "constraints",
+            "type": "{Array}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 120,
+            "description": "Friction between colliding bodies. This value is used if no matching ContactMaterial is found for the body pair.",
+            "itemtype": "property",
+            "name": "defaultFriction",
+            "type": "{Number}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 127,
+            "description": "For keeping track of what time step size we used last step",
+            "itemtype": "property",
+            "name": "lastTimeStep",
+            "type": "{Number}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 134,
+            "description": "Enable to automatically apply spring forces each step.",
+            "itemtype": "property",
+            "name": "applySpringForces",
+            "type": "{Boolean}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 141,
+            "description": "The ContactMaterials added to the World.",
+            "itemtype": "property",
+            "name": "contactMaterials",
+            "type": "{Array}",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 167,
+            "description": "Add a constraint to the simulation.",
+            "itemtype": "method",
+            "name": "addConstraint",
+            "params": [
+                {
+                    "name": "c",
+                    "description": "",
+                    "type": "Constraint"
+                }
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 178,
+            "description": "Add a ContactMaterial to the simulation.",
+            "itemtype": "method",
+            "name": "addContactMaterial",
+            "params": [
+                {
+                    "name": "contactMaterial",
+                    "description": "",
+                    "type": "ContactMaterial"
+                }
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 187,
+            "description": "Get a contact material given two materials",
+            "itemtype": "method",
+            "name": "getContactMaterial",
+            "params": [
+                {
+                    "name": "materialA",
+                    "description": "",
+                    "type": "Material"
+                },
+                {
+                    "name": "materialB",
+                    "description": "",
+                    "type": "Material"
+                }
+            ],
+            "return": {
+                "description": "The matching ContactMaterial, or false on fail.",
+                "type": "ContactMaterial"
+            },
+            "todo": [
+                "Use faster hash map to lookup from material id's"
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 206,
+            "description": "Removes a constraint",
+            "itemtype": "method",
+            "name": "removeConstraint",
+            "params": [
+                {
+                    "name": "c",
+                    "description": "",
+                    "type": "Constraint"
+                }
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 229,
+            "description": "Step the physics world forward in time.",
+            "itemtype": "method",
+            "name": "step",
+            "params": [
+                {
+                    "name": "dt",
+                    "description": "The time step size to use.",
+                    "type": "Number"
+                },
+                {
+                    "name": "callback",
+                    "description": "Called when done.",
+                    "type": "Function"
+                }
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 438,
+            "description": "Add a spring to the simulation",
+            "itemtype": "method",
+            "name": "addSpring",
+            "params": [
+                {
+                    "name": "s",
+                    "description": "",
+                    "type": "Spring"
+                }
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 450,
+            "description": "Remove a spring",
+            "itemtype": "method",
+            "name": "removeSpring",
+            "params": [
+                {
+                    "name": "s",
+                    "description": "",
+                    "type": "Spring"
+                }
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 462,
+            "description": "Add a body to the simulation",
+            "itemtype": "method",
+            "name": "addBody",
+            "params": [
+                {
+                    "name": "body",
+                    "description": "",
+                    "type": "Body"
+                }
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 474,
+            "description": "Remove a body from the simulation",
+            "itemtype": "method",
+            "name": "removeBody",
+            "params": [
+                {
+                    "name": "body",
+                    "description": "",
+                    "type": "Body"
+                }
+            ],
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 486,
+            "description": "Convert the world to a JSON-serializable Object.",
+            "itemtype": "method",
+            "name": "toJSON",
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 611,
+            "description": "Load a scene from a serialized state.",
+            "itemtype": "method",
+            "name": "fromJSON",
+            "params": [
+                {
+                    "name": "json",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "True on success, else false.",
+                "type": "Boolean"
+            },
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 715,
+            "description": "Resets the World, removes all bodies, constraints and springs.",
+            "itemtype": "method",
+            "name": "clear",
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 741,
+            "description": "Get a copy of this World instance",
+            "itemtype": "method",
+            "name": "clone",
+            "return": {
+                "description": "",
+                "type": "World"
+            },
+            "class": "World"
+        },
+        {
+            "file": "src/world/World.js",
+            "line": 756,
+            "description": "Test if a world point overlaps bodies",
+            "itemtype": "method",
+            "name": "hitTest",
+            "params": [
+                {
+                    "name": "worldPoint",
+                    "description": "Point to use for intersection tests",
+                    "type": "Array"
+                },
+                {
+                    "name": "bodies",
+                    "description": "A list of objects to check for intersection",
+                    "type": "Array"
+                },
+                {
+                    "name": "precision",
+                    "description": "Used for matching against particles and lines. Adds some margin to these infinitesimal objects.",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Array of bodies that overlap the point",
+                "type": "Array"
+            },
+            "class": "World"
+        }
+    ],
+    "warnings": []
+}

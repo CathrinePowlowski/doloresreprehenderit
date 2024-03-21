@@ -1,0 +1,40 @@
+YUI.add("yuidoc-meta", function(Y) {
+   Y.YUIDoc = { meta: {
+    "classes": [
+        "Body",
+        "Broadphase",
+        "Capsule",
+        "Circle",
+        "Constraint",
+        "ContactEquation",
+        "ContactMaterial",
+        "Convex",
+        "DistanceConstraint",
+        "Equation",
+        "FrictionEquation",
+        "GSSolver",
+        "GridBroadphase",
+        "Island",
+        "IslandSolver",
+        "Material",
+        "NaiveBroadphase",
+        "Nearphase",
+        "Particle",
+        "Plane",
+        "PointToPointConstraint",
+        "PrismaticConstraint",
+        "QuadTree",
+        "Rectangle",
+        "RotationalVelocityEquation",
+        "SAP1DBroadphase",
+        "Shape",
+        "Solver",
+        "Spring",
+        "World",
+        "mat2",
+        "vec2"
+    ],
+    "modules": [],
+    "allModules": []
+} };
+});
